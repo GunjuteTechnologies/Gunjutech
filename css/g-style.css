@@ -496,7 +496,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover { color: #fff; 
 /*---------------------------------------------------------------------
   Slick slider
 -----------------------------------------------------------------------*/
-.slider { width: 50%; margin: 107px auto; }
+.slider { width: 50%; margin: 108px auto; }
 .slick-slide { margin: 0px 20px; }
 .slick-list.draggable { border: 1px solid rgba(255, 255, 255, 0.16); overflow: hidden; }
 .slick-slide img { width: 100%; }
@@ -2248,3 +2248,6 @@ transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;
 }
 .iq-minimal-tab .iq-portfolio{margin-bottom: 30px;}
 
+html, body {
+    overflow-x: hidden;
+}
