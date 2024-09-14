@@ -1,11 +1,5 @@
 /*
-Template:  Xamin -Data Science & Analytics HTML5 Template
-Author: http://iqonic.design/
-Version: 1.0
-Design and Developed by: iqonic.design.in
-
-NOTE: This is main stylesheet of template, This file contains the styling for the actual Template. Please do not change anything here! write in a custom.css file if required!
-
+Gunjute Technologies
 */
 
 /*================================================
@@ -108,8 +102,8 @@ input[type=checkbox] { width: auto; margin-right: 10px; line-height: 2; height: 
 -----------------------------------------------------------------------*/
 .error-bg { float: left; width: 100%; display: block; }
 .error-404 .big-text { font-size: 240px; font-family: 'Lato', sans-serif; line-height: 240px; color: #313e5b; font-weight: bold; }
-.xamin-gradient-bg-top { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eff1fe), color-stop(60%, #ffffff)); background: -moz-linear-gradient(top, #eff1fe 0, #ffffff 60%); background: -webkit-linear-gradient(top, #eff1fe 0, #ffffff 60%); background: -o-linear-gradient(top, #eff1fe 0, #ffffff 60%); background: -ms-linear-gradient(top, #eff1fe 0, #ffffff 60%); background: linear-gradient(top, #eff1fe 0, #ffffff 60%); }
-.xamin-gradient-bg-bottom { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eff1fe), color-stop(60%, #ffffff)); background: -moz-linear-gradient(bottom, #eff1fe 0, #ffffff 60%); background: -webkit-linear-gradient(bottom, #eff1fe 0, #ffffff 60%); background: -o-linear-gradient(bottom, #eff1fe 0, #ffffff 60%); background: -ms-linear-gradient(bottom, #eff1fe 0, #ffffff 60%); background: linear-gradient(bottom, #eff1fe 0, #ffffff 60%); }
+.gunjute-gradient-bg-top { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eff1fe), color-stop(60%, #ffffff)); background: -moz-linear-gradient(top, #eff1fe 0, #ffffff 60%); background: -webkit-linear-gradient(top, #eff1fe 0, #ffffff 60%); background: -o-linear-gradient(top, #eff1fe 0, #ffffff 60%); background: -ms-linear-gradient(top, #eff1fe 0, #ffffff 60%); background: linear-gradient(top, #eff1fe 0, #ffffff 60%); }
+.gunjute-gradient-bg-bottom { background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eff1fe), color-stop(60%, #ffffff)); background: -moz-linear-gradient(bottom, #eff1fe 0, #ffffff 60%); background: -webkit-linear-gradient(bottom, #eff1fe 0, #ffffff 60%); background: -o-linear-gradient(bottom, #eff1fe 0, #ffffff 60%); background: -ms-linear-gradient(bottom, #eff1fe 0, #ffffff 60%); background: linear-gradient(bottom, #eff1fe 0, #ffffff 60%); }
 ul.iq-list { margin: 0px; }
 .column-2 ul.iq-list { columns: 2; -webkit-columns: 2; -moz-columns: 2; }
 
@@ -290,11 +284,11 @@ header.style-one.style-two .navbar ul li .sub-menu li:hover, header.style-one.st
 .button:hover { text-decoration: none; color: #ffffff; -webkit-transform: translate3d(0, 0px, 0); transform: translate3d(0, 0px, 0); }
 .button:focus, .button.blue-btn:focus { color: #ffffff; }
 .button span { z-index: 2; position: relative; }
-.xamin-left-img img { position: relative; left: -47%; max-width: 155% !important; margin-top: -200px; }
-.xamin-right-img img { right: -19%; max-width: 150% !important; margin-top: -100px; }
-.xamin-right-img-wm img { right: -19%; max-width: 150% !important;  }
+.gunjute-left-img img { position: relative; left: -47%; max-width: 155% !important; margin-top: -200px; }
+.gunjute-right-img img { right: -19%; max-width: 150% !important; margin-top: -100px; }
+.gunjute-right-img-wm img { right: -19%; max-width: 150% !important;  }
 
-.xamin-bg .iq-objects-03 { z-index: 1; }
+.gunjute-bg .iq-objects-03 { z-index: 1; }
 .button.border-btn { border: 1px solid #313e5b; color: #313e5b; background: #437eeb; }
 .button.border-btn:hover { background: #437eeb; color: #ffffff; border-color: #437eeb; }
 .button.border-btn:active { background: #437eeb; color: #ffffff; border-color: #437eeb; }
@@ -350,7 +344,7 @@ article.hentry .iq-blog-box .iq-blog-detail .blog-content .widget_tag_cloud ul l
 .iq-blog-box .blog-title a h4 { color: #313e5b; text-decoration: none; }
 .iq-blog-box .blog-title a:hover h4, .iq-blog-box .blog-title a:hover { color: #437eeb; text-decoration: none; }
 .iq-blog-box .iq-blog-detail { padding: 0px 30px 30px; display: inline-block; float: left; width: 100%; }
-.xamin-space-bottom .iq-blog-box .iq-blog-detail { padding: 0 15px 15px; }
+.gunjute-space-bottom .iq-blog-box .iq-blog-detail { padding: 0 15px 15px; }
 .owl-carousel .iq-blog-box .iq-blog-detail { display: inline-block; float: left; width: 100%; padding: 0 15px 15px; }
 .owl-carousel .iq-blog-box { margin: 30px 15px; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
 .owl-carousel .iq-blog-box:hover { box-shadow: 4.871px 34.659px 15px -24px rgba(0, 0, 0, 0.06); }
@@ -424,7 +418,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover { color: #fff; 
 -----------------------------------------------------------------------*/
 .main-left { margin-bottom: 60px !important; }
 .title-box { margin-top: -5px; }
-.xamin-contact .title-box.text-center { margin-bottom: 30px }
+.gunjute-contact .title-box.text-center { margin-bottom: 30px }
 .title-box.text-left p { margin-bottom: 0px }
 .title-box h2 { margin-bottom: 15px; }
 .title-box-space, .title-box.text-left.title-box-space { margin-bottom: 30px; }
@@ -440,7 +434,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover { color: #fff; 
 /*---------------------------------------------------------------------
   Bg effect
 -----------------------------------------------------------------------*/
-.xamin-service-bg .iq-objects-02 { width: 300px; top: -167px; }
+.gunjute-service-bg .iq-objects-02 { width: 300px; top: -167px; }
 .iq-objects.style-one { position: absolute; top: 0; z-index: -1; -webkit-animation: jump 2s infinite alternate; }
 .iq-objects.style-one.left { left: -300px; }
 .iq-objects.style-one.right { right: -30%; top: 0; width: 300px; }
@@ -667,18 +661,18 @@ Leader team
 .owl-carousel .owl-item .clients-box.hover-effct img { width: auto; margin: 0 auto; }
 .owl-carousel .owl-item .clients-box.hover-effct img { opacity: .4; transition: all .3s ease-in-out; }
 .owl-carousel .owl-item .clients-box.hover-effct img:hover { opacity: 1; }
-.client-xamin .owl-carousel .owl-item .clients-box.hover-effct img { margin: inherit; }
-.client-xamin .col-sm-12, .client-xamin-border .col-sm-12 { padding: 0; }
-.client-xamin-border { border-top: 1px solid #eff1fe }
-.xamin-client { background: #ffffff; border-radius: 5px; padding: 60px 30px; margin-bottom: 30px; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
-.xamin-client .client-icon { margin-bottom: 30px; }
-.xamin-client:hover { margin-top: -10px; box-shadow: 0px 35px 30px 0px rgba(0, 0, 0, 0.06); }
+.client-gunjute .owl-carousel .owl-item .clients-box.hover-effct img { margin: inherit; }
+.client-gunjute .col-sm-12, .client-gunjute-border .col-sm-12 { padding: 0; }
+.client-gunjute-border { border-top: 1px solid #eff1fe }
+.gunjute-client { background: #ffffff; border-radius: 5px; padding: 60px 30px; margin-bottom: 30px; -webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease; }
+.gunjute-client .client-icon { margin-bottom: 30px; }
+.gunjute-client:hover { margin-top: -10px; box-shadow: 0px 35px 30px 0px rgba(0, 0, 0, 0.06); }
 
 /*---------------------------------------------------------------------
  map
 -----------------------------------------------------------------------*/
-.xamin-map:before { background: url(../images/map.html)no-repeat; position: absolute; width: 100%; right: 0; left: 0; top: 50px; height: 700px; background-position: center; margin: 0 auto; }
-.xamin-map { position: relative; }
+.gunjute-map:before { background: url(../images/map.html)no-repeat; position: absolute; width: 100%; right: 0; left: 0; top: 50px; height: 700px; background-position: center; margin: 0 auto; }
+.gunjute-map { position: relative; }
 .map-detail  .iq-list { margin-bottom: 0; }
 .map-detail .iq-list li i { position: absolute; margin-right: 10px; left: 0; line-height: 30px; top: 0; }
 .map-detail .iq-list li span { color: #525f81; padding-left: 0; }
@@ -782,15 +776,15 @@ footer .footer_top_block { padding-bottom: 100px; }
 /*---------------------------------------------------------------------
  Blog Grid 1 and 3
 ---------------------------------------------------------------------*/
-.xamin-recentblog.c4 .consulting-blog .consult-detail img { width: 100%; }
-.xamin-recentblog.c4 .consulting-blog, .xamin-recentblog.c3 .consulting-blog, .xamin-recentblog.c2 .consulting-blog { margin-bottom: 30px; }
-.xamin-recentblog.c4 .consulting-blog:hover .consult-effect:before { bottom: -63px; }
-.xamin-recentblog.c4 .consulting-blog .consult-effect:before { transform: skewY(-3deg); ms-transform: skewY(-3deg); -webkit-transform: skewY(-3deg); }
+.gunjute-recentblog.c4 .consulting-blog .consult-detail img { width: 100%; }
+.gunjute-recentblog.c4 .consulting-blog, .gunjute-recentblog.c3 .consulting-blog, .gunjute-recentblog.c2 .consulting-blog { margin-bottom: 30px; }
+.gunjute-recentblog.c4 .consulting-blog:hover .consult-effect:before { bottom: -63px; }
+.gunjute-recentblog.c4 .consulting-blog .consult-effect:before { transform: skewY(-3deg); ms-transform: skewY(-3deg); -webkit-transform: skewY(-3deg); }
 
 /*---------------------------------------------------------------------
  Blog Grid 2
 ---------------------------------------------------------------------*/
-.xamin-recentblog.c2 .consulting-blog .consult-effect:before { transform: skewY(-4deg); ms-transform: skewY(-4deg); -webkit-transform: skewY(-4deg); }
+.gunjute-recentblog.c2 .consulting-blog .consult-effect:before { transform: skewY(-4deg); ms-transform: skewY(-4deg); -webkit-transform: skewY(-4deg); }
 
 /*---------------------------------------------------------------------
  Blog page
@@ -802,7 +796,7 @@ footer .footer_top_block { padding-bottom: 100px; }
 /*---------------------------------------------------------------------
 About style home-2
 ---------------------------------------------------------------------*/
-.about-xamin-box { overflow: hidden; box-shadow: 0px 18px 21px 0px rgba(0, 0, 0, 0.08); }
+.about-gunjute-box { overflow: hidden; box-shadow: 0px 18px 21px 0px rgba(0, 0, 0, 0.08); }
 .about-box { display: block; }
 .fancy-about img { width: 60px; }
 .fancy-about { padding: 45px 45px 85px; }
@@ -819,8 +813,8 @@ About style home-2
 .first-box .effect-box.main .effect-btn { right: 28px; }
 .effect-box.main { bottom: 0; left: 0; height: 100%; width: 100%; padding: 45px; background: #313e5b; }
 .effect-box.main .effect-btn { text-align: right; position: absolute; top: 0; right: 12px; }
-.about-xamin-box .no-margin { position: relative; overflow: hidden; }
-.about-xamin-box img { width: 100%; }
+.about-gunjute-box .no-margin { position: relative; overflow: hidden; }
+.about-gunjute-box img { width: 100%; }
 
 /*---------------------------------------------------------------------
                           Progress Bar
@@ -841,33 +835,33 @@ About style home-2
 /*---------------------------------------------------------------------
                           Progress Bar
 -----------------------------------------------------------------------*/
-.xamin-services:hover.xamin-services:after { position: absolute; content: ''; left: 0px; top: 0px; right: 0px; bottom: 0px; top: 0%; transition: all 900ms ease; -moz-transition: all 900ms ease; -webkit-transition: all 900ms ease; -ms-transition: all 900ms ease; -o-transition: all 900ms ease; background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%); background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%); background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%); background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0)), color-stop(100, #ffffff)); background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%); /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 100%); */ }
-.xamin-services { margin-bottom: 30px; padding: 30px; background: #ffffff; position: relative; overflow: hidden; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.05); }
-.xamin-services:before { position: absolute; bottom: 0; content: ""; width: 0; background: #437eeb; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; z-index: 2 }
-.xamin-services:hover:before { width: 100%; height: 4px; left: 0; }
-.xamin-services .services-detail { z-index: 3; position: relative; }
-.xamin-services i { font-size: 40px; color: #437eeb; z-index: 1; margin-bottom: 15px; line-height: 50px; display: inherit; }
-.xamin-services img { width: 48px; margin-bottom: 15px; }
-.xamin-services img.hover-img { position: absolute; top: 0; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; opacity: 0; left: 0; right: 0; width: 100%; }
-.xamin-services:hover img.hover-img { z-index: 0; opacity: 1; top: 0; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
-.xamin-services.text-center img { width: auto; }
-.xamin-services.text-center { padding: 30px 15px; }
+.gunjute-services:hover.gunjute-services:after { position: absolute; content: ''; left: 0px; top: 0px; right: 0px; bottom: 0px; top: 0%; transition: all 900ms ease; -moz-transition: all 900ms ease; -webkit-transition: all 900ms ease; -ms-transition: all 900ms ease; -o-transition: all 900ms ease; background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%); background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%); background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%); background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0)), color-stop(100, #ffffff)); background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #ffffff 100%); /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 100%); */ }
+.gunjute-services { margin-bottom: 30px; padding: 30px; background: #ffffff; position: relative; overflow: hidden; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.05); }
+.gunjute-services:before { position: absolute; bottom: 0; content: ""; width: 0; background: #437eeb; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; z-index: 2 }
+.gunjute-services:hover:before { width: 100%; height: 4px; left: 0; }
+.gunjute-services .services-detail { z-index: 3; position: relative; }
+.gunjute-services i { font-size: 40px; color: #437eeb; z-index: 1; margin-bottom: 15px; line-height: 50px; display: inherit; }
+.gunjute-services img { width: 48px; margin-bottom: 15px; }
+.gunjute-services img.hover-img { position: absolute; top: 0; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; opacity: 0; left: 0; right: 0; width: 100%; }
+.gunjute-services:hover img.hover-img { z-index: 0; opacity: 1; top: 0; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+.gunjute-services.text-center img { width: auto; }
+.gunjute-services.text-center { padding: 30px 15px; }
 
 /*---------------------------------------------------------------------
- xamin Tab
+ gunjute Tab
 -----------------------------------------------------------------------*/
-.xamin-tabs .col-lg-6.pr-0 { background: #437eeb; }
-.xamin-tabs .col-lg-6.pr-0 .services-tab { padding: 48px; }
-.xamin-tabs .services-tab .title-box .title-design { color: #ffffff; }
-.xamin-tabs .services-tab .title-box .title-design:before { background: #ffffff; }
-.xamin-tabs .services-tab .title-box h2, .xamin-tabs .services-tab  p { color: #ffffff; }
-.xamin-tabs .services-tab  p { display: initial; }
-.xamin-tabs  .video-btn a { position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%); background: #ffffff; width: 100px; height: 100px; text-align: center; border-radius: 90px; }
-.xamin-tabs  .video-btn a i { line-height: 100px; font-size: 20px; color: #313e5b; }
-.xamin-tabs .video-btn { position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+.gunjute-tabs .col-lg-6.pr-0 { background: #437eeb; }
+.gunjute-tabs .col-lg-6.pr-0 .services-tab { padding: 48px; }
+.gunjute-tabs .services-tab .title-box .title-design { color: #ffffff; }
+.gunjute-tabs .services-tab .title-box .title-design:before { background: #ffffff; }
+.gunjute-tabs .services-tab .title-box h2, .gunjute-tabs .services-tab  p { color: #ffffff; }
+.gunjute-tabs .services-tab  p { display: initial; }
+.gunjute-tabs  .video-btn a { position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%); background: #ffffff; width: 100px; height: 100px; text-align: center; border-radius: 90px; }
+.gunjute-tabs  .video-btn a i { line-height: 100px; font-size: 20px; color: #313e5b; }
+.gunjute-tabs .video-btn { position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 .video-btn .video-btn { background: #437eeb; display: inline-block; width: 50px; height: 50px; line-height: 50px; text-align: center; font-size: 20px; color: #ffffff; float: left; border-radius: 100%; z-index: 9; position: absolute; left: 35px; top: 35px; }
-.xamin-tabs .video-btn .video-btn i { margin-left: 5px; font-family: FontAwesome; }
-.xamin-tabs .video-btn .video-btn:hover i { color: #ffffff; }
+.gunjute-tabs .video-btn .video-btn i { margin-left: 5px; font-family: FontAwesome; }
+.gunjute-tabs .video-btn .video-btn:hover i { color: #ffffff; }
 .video-btn .btn-waves { width: 250px; height: 250px; z-index: 2; }
 .video-btn .btn-waves .waves { position: absolute; width: 250px; height: 250px; border: 1px solid rgba(255, 255, 255, 0.8); opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; border-radius: 320px; background-clip: padding-box; -webkit-animation: waves 3s ease-in-out infinite; animation: waves 3s ease-in-out infinite; }
 .video-btn .btn-waves .wave-1 { -webkit-animation-delay: 0s; animation-delay: 0s; }
@@ -883,14 +877,14 @@ About style home-2
   50% { opacity: 0.9; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; }
   100% { -webkit-transform: scale(0.9, 0.9); transform: scale(0.9, 0.9); opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
 }
-.xamin-tabs { overflow: visible !important; }
-.xamin-tabs .tab-content { box-shadow: 0px 18px 35px 0px rgba(0, 0, 0, 0.15); }
-.xamin-tabs .services-btn { position: absolute; bottom: 20px; z-index: 3; left: 5%; }
-.xamin-tabs .nav-pills .nav-link { color: #ffffff; }
-.xamin-tabs .nav-pills .nav-link.active { box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1); background: #ffffff; border-radius: 0px; color: #313e5b; }
+.gunjute-tabs { overflow: visible !important; }
+.gunjute-tabs .tab-content { box-shadow: 0px 18px 35px 0px rgba(0, 0, 0, 0.15); }
+.gunjute-tabs .services-btn { position: absolute; bottom: 20px; z-index: 3; left: 5%; }
+.gunjute-tabs .nav-pills .nav-link { color: #ffffff; }
+.gunjute-tabs .nav-pills .nav-link.active { box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1); background: #ffffff; border-radius: 0px; color: #313e5b; }
 
 /*---------------------------------------------------------------------
- xamin  Services
+ gunjute  Services
 -----------------------------------------------------------------------*/
 .consult-services { padding: 30px; z-index: 0; }
 .consult-services img {  margin: 0px 0 15px; }
@@ -899,21 +893,21 @@ About style home-2
 .wpcf7-form p:nth-child(n+4) { margin-bottom: 0; }
 
 /*---------------------------------------------------------------------
- xamin  Style 3 circule effect
+ gunjute  Style 3 circule effect
 -----------------------------------------------------------------------*/
-.consult-services.xamin-circle { padding: 0; margin-bottom: 30px; position: relative; width: 100%; }
-.consult-services.xamin-circle.right:before { background-image: url('../images/26.png'); content: ""; display: inline-block; position: absolute; right: -143px; background-repeat: no-repeat; width: 240px; height: 200px; }
-.consult-services.xamin-circle .circle-effect { display: inline-block; width: 100px; height: 100px; line-height: 110px; margin-bottom: 30px; border-radius: 90px; background: #eff1fe; box-shadow: 0 0 0 14px rgb(239, 241, 254, 0.3); }
-.xamin-process.xamin-circle { padding: 0; margin-bottom: 30px; position: relative; width: 100%; }
-.xamin-process.xamin-circle.right:before { background-image: url('../images/26.png'); content: ""; display: inline-block; position: absolute; top: 30px; right: -145px; background-repeat: no-repeat; width: 240px; height: 200px; }
-.xamin-process.xamin-circle .circle-effect { border: 2px dashed #437eeb; width: 140px; height: 140px; border-radius: 90px; padding: 10px; margin: 0 auto 30px; text-align: center; }
-.xamin-process.xamin-circle .circle-effect img { display: inline-block; width: 120px; height: 120px; line-height: 120px; border-radius: 90px; background-image: -moz-linear-gradient(90deg, rgb(241, 243, 254) 0%, rgb(255, 255, 255) 100%); background-image: -webkit-linear-gradient(90deg, rgb(241, 243, 254) 0%, rgb(255, 255, 255) 100%); background-image: -ms-linear-gradient(90deg, rgb(241, 243, 254) 0%, rgb(255, 255, 255) 100%); box-shadow: 0 0 0 14px rgb(239, 241, 254, 0.3); }
-.consult-services.xamin-square { padding: 0; margin-bottom: 30px; position: relative; width: 100%; }
-.consult-services.xamin-square .square-effect { text-align: center; background: #ffffff; display: inline-block; width: 110px; height: 110px; line-height: 110px; margin-bottom: 30px; box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06); }
-.consult-services.xamin-square .square-effect img { width: auto; margin: 0 auto; }
+.consult-services.gunjute-circle { padding: 0; margin-bottom: 30px; position: relative; width: 100%; }
+.consult-services.gunjute-circle.right:before { background-image: url('../images/26.png'); content: ""; display: inline-block; position: absolute; right: -143px; background-repeat: no-repeat; width: 240px; height: 200px; }
+.consult-services.gunjute-circle .circle-effect { display: inline-block; width: 100px; height: 100px; line-height: 110px; margin-bottom: 30px; border-radius: 90px; background: #eff1fe; box-shadow: 0 0 0 14px rgb(239, 241, 254, 0.3); }
+.gunjute-process.gunjute-circle { padding: 0; margin-bottom: 30px; position: relative; width: 100%; }
+.gunjute-process.gunjute-circle.right:before { background-image: url('../images/26.png'); content: ""; display: inline-block; position: absolute; top: 30px; right: -145px; background-repeat: no-repeat; width: 240px; height: 200px; }
+.gunjute-process.gunjute-circle .circle-effect { border: 2px dashed #437eeb; width: 140px; height: 140px; border-radius: 90px; padding: 10px; margin: 0 auto 30px; text-align: center; }
+.gunjute-process.gunjute-circle .circle-effect img { display: inline-block; width: 120px; height: 120px; line-height: 120px; border-radius: 90px; background-image: -moz-linear-gradient(90deg, rgb(241, 243, 254) 0%, rgb(255, 255, 255) 100%); background-image: -webkit-linear-gradient(90deg, rgb(241, 243, 254) 0%, rgb(255, 255, 255) 100%); background-image: -ms-linear-gradient(90deg, rgb(241, 243, 254) 0%, rgb(255, 255, 255) 100%); box-shadow: 0 0 0 14px rgb(239, 241, 254, 0.3); }
+.consult-services.gunjute-square { padding: 0; margin-bottom: 30px; position: relative; width: 100%; }
+.consult-services.gunjute-square .square-effect { text-align: center; background: #ffffff; display: inline-block; width: 110px; height: 110px; line-height: 110px; margin-bottom: 30px; box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06); }
+.consult-services.gunjute-square .square-effect img { width: auto; margin: 0 auto; }
 .consult-services img.arrow-img { position: absolute; right: -25px; width: auto; top: 20%;  }
-.consult-services.xamin-square .square-effect.bg { position: relative; }
-.consult-services.xamin-square .square-effect.bg .arrowbg_img { position: absolute; bottom: -45px; left: -15px;  -webkit-animation-name: fadebounce; -moz-animation-name: fadebounce; -ms-animation-name: fadebounce; -o-animation-name: fadebounce; animation-name: fadebounce; -webkit-animation-duration: 5s; -moz-animation-duration: 5s; -ms-animation-duration: 5s; -o-animation-duration: 5s; animation-duration: 5s; -webkit-animation-iteration-count: infinite; -moz-animation-iteration-count: infinite; -ms-animation-iteration-count: infinite; -o-animation-iteration-count: infinite; animation-iteration-count: infinite; }
+.consult-services.gunjute-square .square-effect.bg { position: relative; }
+.consult-services.gunjute-square .square-effect.bg .arrowbg_img { position: absolute; bottom: -45px; left: -15px;  -webkit-animation-name: fadebounce; -moz-animation-name: fadebounce; -ms-animation-name: fadebounce; -o-animation-name: fadebounce; animation-name: fadebounce; -webkit-animation-duration: 5s; -moz-animation-duration: 5s; -ms-animation-duration: 5s; -o-animation-duration: 5s; animation-duration: 5s; -webkit-animation-iteration-count: infinite; -moz-animation-iteration-count: infinite; -ms-animation-iteration-count: infinite; -o-animation-iteration-count: infinite; animation-iteration-count: infinite; }
 @-moz-keyframes fadebounce {
   0% { -moz-transform: translateY(0); transform: translateY(0); opacity: 1 }
   50% { -moz-transform: translateY(10px); transform: translateY(10px); opacity: 1 }
@@ -968,11 +962,11 @@ About style home-2
  Contact form
 -----------------------------------------------------------------------*/
 .wpcf7-response-output.wpcf7-validation-errors, div.wpcf7-mail-sent-ng, div.wpcf7-aborted { position: absolute; bottom: -5px; left: 0; color: red; border: none; padding: 0; margin: 5px 0; }
-.xamin-contact { padding: 45px; background: #eff1fe; }
-.xamin-contact h2 { text-align: center; }
-.xamin-contact input:hover, .xamin-contact input[type=text]:hover, .xamin-contact textarea:hover { border: 1px solid #437eeb; }
-.xamin-contact  .button { cursor: pointer; margin-top: 15px; }
-.xamin-contact input, .xamin-contact input[type=text], .xamin-contact textarea { border: 1px solid #eff1fe; }
+.gunjute-contact { padding: 45px; background: #eff1fe; }
+.gunjute-contact h2 { text-align: center; }
+.gunjute-contact input:hover, .gunjute-contact input[type=text]:hover, .gunjute-contact textarea:hover { border: 1px solid #437eeb; }
+.gunjute-contact  .button { cursor: pointer; margin-top: 15px; }
+.gunjute-contact input, .gunjute-contact input[type=text], .gunjute-contact textarea { border: 1px solid #eff1fe; }
 .contact-form  textarea { background: #eff1fe; }
 .wpcf7-form p:nth-child(n+6) { margin-bottom: 0; }
 div.wpcf7-validation-errors, div.wpcf7-acceptance-missing, .wpcf7-not-valid-tip { display: none !important; }
@@ -990,16 +984,16 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing, .wpcf7-not-valid-tip 
 /*---------------------------------------------------------------------
  Contact form style-2
 -----------------------------------------------------------------------*/
-.contact-two .xamin-contact { padding: 0; background: transparent; }
-.contact-two .xamin-contact h2 { text-align: left; }
-.contact-two  .xamin-contact { margin: 0; }
+.contact-two .gunjute-contact { padding: 0; background: transparent; }
+.contact-two .gunjute-contact h2 { text-align: left; }
+.contact-two  .gunjute-contact { margin: 0; }
 .contact-two iframe { box-shadow: 0px 8px 57.4px 12.6px rgba(0, 0, 0, 0.08); height: 568px; margin: 0px; -webkit-filter: grayscale(100%); filter: grayscale(100%); }
 
 /*---------------------------------------------------------------------
  Contact form style-3
 -----------------------------------------------------------------------*/
-.xamin-contact.contact-style { background: #eff1fe; margin-bottom: 0; padding: 100px 45px; }
-.xamin-contact.contact-style h2 { text-align: left; }
+.gunjute-contact.contact-style { background: #eff1fe; margin-bottom: 0; padding: 100px 45px; }
+.gunjute-contact.contact-style h2 { text-align: left; }
 
 /*---------------------------------------------------------------------
  Contact form tab
@@ -1015,16 +1009,16 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing, .wpcf7-not-valid-tip 
 .our-services-tab.map-contact   .vc_tta-panels { background: none !important; border: none !important; }
 .our-services-tab.map-contact ul li.vc_tta-tab.vc_active:before, .our-services-tab.map-contact ul li.vc_tta-tab:hover:before { display: inline-block; width: 100%; height: 3px; background: rgba(255, 255, 255, 0.23); content: ""; position: absolute; left: 0; bottom: 0px; }
 .our-services-tab.map-contact .vc_tta-tabs-container { margin: 0px !important; }
-.our-services-tab.map-contact  .contact-form.xamin-contact, .our-services-tab.map-contact .contact-details-three { margin-bottom: 0px; margin-top: -70px !important; }
+.our-services-tab.map-contact  .contact-form.gunjute-contact, .our-services-tab.map-contact .contact-details-three { margin-bottom: 0px; margin-top: -70px !important; }
 .our-services-tab.map-contact ul.contact-details-box li i { color: #437eeb; }
 .our-services-tab.map-contact ul.contact-details-box li, .our-services-tab.map-contact .text-black { }
 .contact-details-box li { margin-bottom: 15px; }
 
 /*---------------------------------------------------------------------
- xamin History
+ gunjute History
 -----------------------------------------------------------------------*/
-.xamin-history { padding: 15px; border-radius: 4px; }
-.xamin-history.border { border: 1px solid #eff1fe }
+.gunjute-history { padding: 15px; border-radius: 4px; }
+.gunjute-history.border { border: 1px solid #eff1fe }
 
 /*---------------------------------------------------------------------
 Consulting Project
@@ -1066,12 +1060,12 @@ Fancy Box
 .fancy_service:hover .fancy-info h4, .fancy_service:hover, .fancy_service:hover .link-btn { color: #ffffff; }
 .fancy_service img { width: auto; margin-top: -30px; }
 .fancy_service .fancy-info { position: relative; z-index: 1; }
-.xamin-analytics { margin-bottom: 45px; }
-.xamin-analytics.text-left { display: flex; }
-.xamin-analytics .analytics-icon { border: 2px dashed #437eeb; width: 100px; height: 100px; border-radius: 90px; padding: 10px; margin: 0 auto 30px; text-align: center; }
-.xamin-analytics .analytics-icon img, .xamin-analytics .analytics-icon i { box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06); display: inline-block; width: auto; height: auto; line-height: 90px; border-radius: 90px; background: #ffffff; }
-.xamin-analytics.text-right .analytics-icon { float: right; margin-left: 30px; }
-.xamin-analytics.text-left .analytics-detail { flex: 1; margin-left: 30px; }
+.gunjute-analytics { margin-bottom: 45px; }
+.gunjute-analytics.text-left { display: flex; }
+.gunjute-analytics .analytics-icon { border: 2px dashed #437eeb; width: 100px; height: 100px; border-radius: 90px; padding: 10px; margin: 0 auto 30px; text-align: center; }
+.gunjute-analytics .analytics-icon img, .gunjute-analytics .analytics-icon i { box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06); display: inline-block; width: auto; height: auto; line-height: 90px; border-radius: 90px; background: #ffffff; }
+.gunjute-analytics.text-right .analytics-icon { float: right; margin-left: 30px; }
+.gunjute-analytics.text-left .analytics-detail { flex: 1; margin-left: 30px; }
 .fancy_service.style2 { border-radius: 5px; border: 1px solid #f4f8ff; box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06); margin-bottom: 60px; padding: 0; display: block; float: left; width: 100%; }
 .fancy_service.style2 .fancy-info { float: left; width: 70%; padding: 30px; }
 .fancy_service.style2 .fancy_img { position: absolute; right: -100px; bottom: -20px; }
@@ -1463,7 +1457,7 @@ home-3
  contact-form3
 -----------------------------------------------------------------------*/
 .request-form { overflow: visible !important; }
-.xamin-contact.style-three { margin-bottom: 0px; }
+.gunjute-contact.style-three { margin-bottom: 0px; }
 .request-form .contact-form-img .vc_custom_1565690411552 { background-position: 100% 0; }
 .request-form .request-details { margin-bottom: -350px; box-shadow: 0px 18px 35px 0px rgba(0, 0, 0, 0.15); }
 
@@ -1515,8 +1509,8 @@ Custom Tab
 -----------------------------------------------------------------------*/
 .custom-tab .tab-pane.fade.active.show { display: block; }
 .custom-tab .tab-pane.fade { display: none; }
-.xamin-award .award-img { padding: 30px; border-radius: 4px; border: 1px solid #eff1fe; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; background: #ffff; }
-.xamin-award:hover .award-img { box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06); }
+.gunjute-award .award-img { padding: 30px; border-radius: 4px; border: 1px solid #eff1fe; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; background: #ffff; }
+.gunjute-award:hover .award-img { box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06); }
 .custom-tab .nav.nav-pills { display: block; width: 100%; box-shadow: 0px 22px 40px 0px rgba(0, 0, 0, 0.05); background: transparent; overflow: hidden; border-radius: 10px; }
 .custom-tab .nav.nav-pills li { display: inline-block; width: 25%; float: left; }
 .custom-tab .nav.nav-pills[aria-orientation="vertical"] li.nav-item { width: 100%;   vertical-align: middle;   float: left; }
@@ -1580,31 +1574,31 @@ Icone effect
 /*---------------------------------------------------------------------
 Award
 -----------------------------------------------------------------------*/
-.xamin-award { margin-bottom: 45px }
+.gunjute-award { margin-bottom: 45px }
 .page-id-940 .iq-breadcrumb-one, .page-id-1987 .iq-breadcrumb-one { display: none; }
 .page-id-940 .content-area .site-main, .page-id-1987  .content-area .site-main { padding: 0; }
 
 /*---------------------------------------------------------------------
 Testimonial Circle
 -----------------------------------------------------------------------*/
-.xamin-feature-circle { position: relative; display: inline-block; width: 550px; height: 550px; }
-.xamin-feature-circle .xamin-img::before { content: ""; border: 2px dotted #c4d6f9; -webkit-animation: anti-clockwise 25s linear 100000; animation: anti-clockwise 25s linear 100000; width: 500px; height: 500px; border-radius: 900px; display: inline-block; }
-.xamin-feature-circle .xamin-img { width: 500px; height: 500px; position: relative; transition: all .4s ease; transform-origin: center center }
-.xamin-feature-circle .circle-bg { box-shadow: 0px 20px 40px 0px rgba(67, 126, 235, 0.3); width: 140px; text-align: center; position: relative; height: 140px; line-height: 140px; border-radius: 900px; background: #437eeb; }
-.xamin-feature-circle .dot-circle { position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%); }
-.xamin-feature-circle .effect-circle:before { background: url('../images/circle.png'); width: 270px; height: 270px; display: inline-block; content: ""; }
-.xamin-feature-circle .effect-circle { width: 270px; height: 270px; border-radius: 900px; border: 1px solid #c4d6f9; -webkit-animation: rotate-center 25s linear 100000; animation: rotate-center 25s linear 100000; }
-.xamin-feature-circle .main-circle { position: absolute; transform: translate(-50%, -50%); top: 50%; left: 50%; margin-right: -50%; }
-.xamin-feature-circle .xamin-img ul li .feature-info { position: absolute; margin: 0 auto; text-align: center; }
-.xamin-feature-circle .xamin-img ul li .feature-info .feature-img { height: 65px; width: 65px; line-height: 65px; border-radius: 90px; background: #ffffff; text-align: center; margin: 0 auto 5px; box-shadow: 0px 8px 38px 0px rgba(0, 0, 0, 0.1); }
-.xamin-feature-circle .xamin-img ul li:nth-child(1) .feature-info { top: -38px; left: -16px; right: 0; }
-.xamin-feature-circle .xamin-img ul li:nth-child(2) .feature-info { top: 10%; left: 0%; }
-.xamin-feature-circle .xamin-img ul li:nth-child(3) .feature-info { top: 10%; right: 2%; }
-.xamin-feature-circle .xamin-img ul li:nth-child(4) .feature-info { top: 44%; right: -15%; }
-.xamin-feature-circle .xamin-img ul li:nth-child(5) .feature-info { top: 44%; left: -15%; }
-.xamin-feature-circle .xamin-img ul li:nth-child(6) .feature-info { top: 78%; left: 4%; }
-.xamin-feature-circle .xamin-img ul li:nth-child(7) .feature-info { top: 73%; right: 0%; }
-.xamin-feature-circle .xamin-img ul li:nth-child(8) .feature-info { bottom: -10%; left: 43%; }
+.gunjute-feature-circle { position: relative; display: inline-block; width: 550px; height: 550px; }
+.gunjute-feature-circle .gunjute-img::before { content: ""; border: 2px dotted #c4d6f9; -webkit-animation: anti-clockwise 25s linear 100000; animation: anti-clockwise 25s linear 100000; width: 500px; height: 500px; border-radius: 900px; display: inline-block; }
+.gunjute-feature-circle .gunjute-img { width: 500px; height: 500px; position: relative; transition: all .4s ease; transform-origin: center center }
+.gunjute-feature-circle .circle-bg { box-shadow: 0px 20px 40px 0px rgba(67, 126, 235, 0.3); width: 140px; text-align: center; position: relative; height: 140px; line-height: 140px; border-radius: 900px; background: #437eeb; }
+.gunjute-feature-circle .dot-circle { position: absolute; top: 50%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%); }
+.gunjute-feature-circle .effect-circle:before { background: url('../images/circle.png'); width: 270px; height: 270px; display: inline-block; content: ""; }
+.gunjute-feature-circle .effect-circle { width: 270px; height: 270px; border-radius: 900px; border: 1px solid #c4d6f9; -webkit-animation: rotate-center 25s linear 100000; animation: rotate-center 25s linear 100000; }
+.gunjute-feature-circle .main-circle { position: absolute; transform: translate(-50%, -50%); top: 50%; left: 50%; margin-right: -50%; }
+.gunjute-feature-circle .gunjute-img ul li .feature-info { position: absolute; margin: 0 auto; text-align: center; }
+.gunjute-feature-circle .gunjute-img ul li .feature-info .feature-img { height: 65px; width: 65px; line-height: 65px; border-radius: 90px; background: #ffffff; text-align: center; margin: 0 auto 5px; box-shadow: 0px 8px 38px 0px rgba(0, 0, 0, 0.1); }
+.gunjute-feature-circle .gunjute-img ul li:nth-child(1) .feature-info { top: -38px; left: -16px; right: 0; }
+.gunjute-feature-circle .gunjute-img ul li:nth-child(2) .feature-info { top: 10%; left: 0%; }
+.gunjute-feature-circle .gunjute-img ul li:nth-child(3) .feature-info { top: 10%; right: 2%; }
+.gunjute-feature-circle .gunjute-img ul li:nth-child(4) .feature-info { top: 44%; right: -15%; }
+.gunjute-feature-circle .gunjute-img ul li:nth-child(5) .feature-info { top: 44%; left: -15%; }
+.gunjute-feature-circle .gunjute-img ul li:nth-child(6) .feature-info { top: 78%; left: 4%; }
+.gunjute-feature-circle .gunjute-img ul li:nth-child(7) .feature-info { top: 73%; right: 0%; }
+.gunjute-feature-circle .gunjute-img ul li:nth-child(8) .feature-info { bottom: -10%; left: 43%; }
 @keyframes circle {
   0% { transform: rotate(0deg) }
   15% { transform: rotate(2deg) }
@@ -1671,11 +1665,11 @@ Testimonial Circle
 .iq-pb-40 { padding-bottom: 40px; }
 .iq-pb-30 { padding-bottom: 30px; }
 .iq-ptb-80 { padding: 80px 0; }
-.xamin-blue-bg { background-color: #437eeb !important; }
-.xamin-primary-bg { background-color: #3f7be7 !important; }
+.gunjute-blue-bg { background-color: #437eeb !important; }
+.gunjute-primary-bg { background-color: #3f7be7 !important; }
 .primary-color { color: #3f7be7 !important; }
 
-.xamin-custom-bg { background: rgb(255, 255, 255); background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(239, 241, 254, 1) 100%); }
+.gunjute-custom-bg { background: rgb(255, 255, 255); background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(239, 241, 254, 1) 100%); }
 .bg-gray { background-color: #eff1fe !important }
 .bg-with-image { background: rgb(255, 255, 255); background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(239, 241, 254, 1) 100%); background-position: center !important; background-repeat: no-repeat !important; background-size: cover !important; }
 .bg-with-image-home2 {  /*background-image: url('../images/2019/09/bg-2.png') !important;*/
@@ -1783,7 +1777,7 @@ our-services
 
 
 /*---------------------------------------------------------------------
- Xamin Fancybox-userbehavior
+ gunjute Fancybox-userbehavior
 -----------------------------------------------------------------------*/
 .fancybox-userbehavior {position: relative; padding: 30px; min-height: 200px; box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, .075);background: #ffffff; border-radius: 10px; margin-bottom: 30px;  transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out;}
  .fancybox-userbehavior:hover  {background: #437eeb;color: #ffffff;}
@@ -1793,7 +1787,7 @@ our-services
  .fancybox-userbehavior .analytics-icon{margin-top: 30px;}
 
  /*---------------------------------------------------------------------
- Xamin Servicebox-userbehavior
+ gunjute Servicebox-userbehavior
 -----------------------------------------------------------------------*/
 .servicebox-userbehavior{position: relative; padding: 40px 60px;  border: 1px solid #e6eefb;   background: #ffffff; border-radius: 10px; margin-bottom: 75px;  transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out;}
 .servicebox-userbehavior:hover{  box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06); border: 1px solid #437eeb; }
@@ -1808,7 +1802,7 @@ our-services
 
 .vc_custom_1575623134691 { border-right-width: 2px !important; border-right-color: #dee2fb !important; border-right-style: solid !important; }
 .fancybox-visualization-service .icon-bg { background: #f2f6fe; margin-top: 5px; border-radius: 10px; margin-right: 30px; }
-.vc_custom_1576062736855 { padding-top: 160px !important; background-image: url('../images/bg/xamin-d10-06.png') !important; background-position: center !important; background-repeat: no-repeat !important; background-size: cover !important; }
+.vc_custom_1576062736855 { padding-top: 160px !important; background-image: url('../images/bg/gunjute-d10-06.png') !important; background-position: center !important; background-repeat: no-repeat !important; background-size: cover !important; }
 .container-visualization ul.iq-client.column-5 { margin: 0px; padding: 0px; }
 .container-visualization ul.iq-client.column-5 li { list-style-type: none; background: #fbfbfb; width: 20%; float: left; display: inline-block; text-align: center; padding: 30px; border-left: 1px solid #e6e6e6; border-top: 1px solid #e6e6e6; }
 .fancybox-visualization-service { display: -ms-flexbox; display: flex; -ms-flex-align: start; align-items: flex-start;-ms-flex: 1; flex: 1; position: relative; margin-bottom: 45px;}
@@ -1968,7 +1962,7 @@ Extra class
 /*Banking n Finance*/
 .iq-banking-client{padding: 50px 0px;}
 .iq-specialize{    padding-bottom: 70px;
-    background-image: url(../../../../iqonic.design/wp-themes/xamin/demo-5/wp-content/uploads/sites/5/revslider/xamin-visualization/xamin-d10-03f6d7.html?id=2242) !important;
+    background-image: url(../../../../iqonic.design/wp-themes/gunjute/demo-5/wp-content/uploads/sites/5/revslider/gunjute-visualization/gunjute-d10-03f6d7.html?id=2242) !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;}
@@ -1992,7 +1986,7 @@ Extra class
     background-repeat: no-repeat !important;
     background-size: cover !important;}
 
-.xamin-background{ padding-bottom: 70px;
+.gunjute-background{ padding-bottom: 70px;
     background-image: url(../images/bg/bg-2.png) !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -2026,9 +2020,9 @@ Extra class
     box-shadow: 0 35px 30px 0 rgba(0,0,0,.06);
 }
 /*Positioning-image*/
-.iq-xamin-laptop{max-width: none!important;}
-/*xamin-background*/
-.xamin-gray-bg{background: #f8fafe ;}
+.iq-gunjute-laptop{max-width: none!important;}
+/*gunjute-background*/
+.gunjute-gray-bg{background: #f8fafe ;}
 
 /*Padding*/
 .iq-pb-70{padding-bottom: 70px;}
@@ -2046,7 +2040,7 @@ Extra class
 .iq-mb-30{margin-bottom: 30px;}
 
 /*Security*/
-.xamin-gray-bg2{background: #f8f8f8 ;}
+.gunjute-gray-bg2{background: #f8f8f8 ;}
 .iq-about-security{display: inline-block;width: 100%; margin: 0;padding: 0;}
 .iq-about-security li{display: inline-block;    margin-right: 30px;}
 /*Service-box*/
@@ -2120,13 +2114,13 @@ Extra class
 /*---------------------------------------------------------------------
   Service Box Data-center
 -----------------------------------------------------------------------*/
-.iq-xamin-works{display: inline-block;text-align:center;  padding: 30px; margin-bottom: 30px;   -webkit-transition: all .3s ease;
+.iq-gunjute-works{display: inline-block;text-align:center;  padding: 30px; margin-bottom: 30px;   -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
     box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.06);}
-.iq-xamin-works .step-img {
+.iq-gunjute-works .step-img {
     color: #071323;
     display: inline-block;
     position: relative;
@@ -2137,9 +2131,9 @@ Extra class
     border-radius: 50%;
     margin-bottom: 30px;
 }
-.iq-xamin-works .step-img i {
+.iq-gunjute-works .step-img i {
     color: #437eeb; font-size: 45px;  }
-.iq-xamin-works .step-number {
+.iq-gunjute-works .step-number {
     background: #437eeb;
     color: #ffffff;
     width: 35px;
@@ -2220,7 +2214,7 @@ transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;
 -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out;
 -o-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out;}
 
-.xamin-client .client-icon.iq-image img{height: 55px; width: 55px;}
+.gunjute-client .client-icon.iq-image img{height: 55px; width: 55px;}
 
 /*Healthcare Homepage*/
 .owl-carousel.client-logo.iq-bg-over.owl-loaded.owl-drag{background: #F2F4FF !important;}

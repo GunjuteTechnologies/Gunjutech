@@ -1,10 +1,6 @@
 /*
-Template: Xamin -Data Science & Analytics HTML Template
-Author: iqonicthemes.in
-Version: 1.0
-Design and Developed by: iqonicthemes.in
+Gunjute
 */
-
 /*----------------------------------------------
 Index Of Script
 ------------------------------------------------
