@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\css\\g-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\g-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\portfolio.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:portfolio.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\css\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "g-style.css",
+              "DocumentMoniker": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\css\\g-style.css",
+              "RelativeDocumentMoniker": "css\\g-style.css",
+              "ToolTip": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\css\\g-style.css",
+              "RelativeToolTip": "css\\g-style.css",
+              "ViewState": "AQIAAPcjAAAAAAAAAAAowAwkAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-18T11:04:44.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "portfolio.html",
+              "DocumentMoniker": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\portfolio.html",
+              "RelativeDocumentMoniker": "portfolio.html",
+              "ToolTip": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\portfolio.html",
+              "RelativeToolTip": "portfolio.html",
+              "ViewState": "AQIAAOMDAAAAAAAAAAArwP8DAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-18T10:43:13.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "responsive.css",
+              "DocumentMoniker": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\css\\responsive.css",
+              "RelativeDocumentMoniker": "css\\responsive.css",
+              "ToolTip": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\css\\responsive.css",
+              "RelativeToolTip": "css\\responsive.css",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAtwKkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-18T10:31:18.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AQIAALQIAAAAAAAAAAAkwNkIAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-16T11:38:31.067Z",
+              "EditorCaption": ""
             }
           ]
         }
