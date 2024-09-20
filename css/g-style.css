@@ -9227,3 +9227,6 @@ html, body {
     overflow-x: hidden;
 }
 
+.loading h1 {
+    color: #6d5b8f;
+}
