@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:services.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\about-us.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:about-us.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\gen-ai.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:gen-ai.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\data-analytics.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:data-analytics.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,76 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "services.html",
-              "DocumentMoniker": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\services.html",
-              "RelativeDocumentMoniker": "services.html",
-              "ToolTip": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\services.html",
-              "RelativeToolTip": "services.html",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAC0AAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-20T11:29:56.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "about-us.html",
-              "DocumentMoniker": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\about-us.html",
-              "RelativeDocumentMoniker": "about-us.html",
-              "ToolTip": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\about-us.html",
-              "RelativeToolTip": "about-us.html",
-              "ViewState": "AQIAALsCAAAAAAAAAAAkwOUCAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-20T11:01:19.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "gen-ai.html",
-              "DocumentMoniker": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\gen-ai.html",
-              "RelativeDocumentMoniker": "gen-ai.html",
-              "ToolTip": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\gen-ai.html",
-              "RelativeToolTip": "gen-ai.html",
-              "ViewState": "AQIAACoBAAAAAAAAAAAkwFQBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-20T10:59:09.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "data-analytics.html",
-              "DocumentMoniker": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\data-analytics.html",
-              "RelativeDocumentMoniker": "data-analytics.html",
-              "ToolTip": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\data-analytics.html",
-              "RelativeToolTip": "data-analytics.html",
-              "ViewState": "AQIAAEsBAAAAAAAAAAAkwHABAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-20T10:46:43.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\index.html",
-              "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "C:\\Users\\kanha\\OneDrive\\Desktop\\GunjuteTech-website\\Gunjutech\\index.html",
-              "RelativeToolTip": "index.html",
-              "ViewState": "AQIAAAcCAAAAAAAAAAAAACwCAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-20T10:39:48.877Z",
-              "EditorCaption": ""
             }
           ]
         }
