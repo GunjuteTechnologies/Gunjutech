@@ -9230,3 +9230,18 @@ html, body {
 .loading h1 {
     color: #6d5b8f;
 }
+.error-border {
+    border: 2px solid red;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 0; /* Adjusted to remove extra space */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}

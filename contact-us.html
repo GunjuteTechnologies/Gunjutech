@@ -1,6 +1,18 @@
 <!doctype html>
 <html lang="en-US">
 <head>
+    <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MPSLGVNR');</script>
+    <!-- End Google Tag Manager -->
+
     <title>Gunjute Technologies</title>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
@@ -39,8 +51,27 @@
     <link rel="stylesheet" href="css/g-style.css" />
     <!-- Responsive -->
     <link rel="stylesheet" href="css/responsive.css" />
+
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("20OMV82BEZOggeB2L");
+        })();
+    </script>
+
+
+    <script src="js/mail.js"></script>
+
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MPSLGVNR"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- loading -->
     <div id="loading">
         <div id="loading-center"> <img src="./images/logo/Gunjute_logo.png" alt="loader" /> </div>
@@ -159,13 +190,30 @@
                     <div class="col-sm-6">
                         <h2 class="text-left mb-4">Let's talk about for your<br> business.</h2>
                         <div class="response-output "></div>
-                        <form action="#" method="post" class="">
-                            <div class="contact-form">
-                                <div class=""> <input type="text" name="your-name" class="form-control text " placeholder="Your Name"> </div>
-                                <div class=""> <input type="text" name="your-email" class="form-control text " placeholder="Your Email"> </div>
-                                <div class=""> <input type="text" name="your-subject" class="form-control text " placeholder="Subject"> </div>
-                                <div class=""> <textarea name="your-message" cols="40" rows="10" class="form-control textarea " placeholder="Your Message"></textarea> </div>
-                                <div> <button id="submit-4" name="submit" type="submit" value="Send" class="button d-block w-100">Send Message</button> </div>
+                        <form id="contactForm" onsubmit="SendMail(event)">
+                            <div class="predict-form consultab-contact contact-form">
+                                <div>
+                                    <h4 class="title mb-4 text-center">Talk With Our Expert</h4>
+                                </div>
+
+                                <div>
+                                    <label for="full_name">Your Name</label>
+                                    <input id="full_name" type="text" name="your-name" class="form-control text" placeholder="Your Name">
+                                </div>
+
+                                <div>
+                                    <label for="email_id">Your Email</label>
+                                    <input id="email_id" type="email" name="your-email" class="form-control text" placeholder="Your Email">
+                                </div>
+
+                                <div>
+                                    <label for="message">Your Message</label>
+                                    <textarea id="message" name="your-message" cols="40" rows="5" class="form-control textarea" placeholder="Your Message"></textarea>
+                                </div>
+
+                                <div>
+                                    <button name="submit" type="submit" class="button d-block w-100">Send Message</button>
+                                </div>
                             </div>
                         </form>
                     </div>
