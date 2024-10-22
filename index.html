@@ -58,7 +58,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- Fontawesome Fonts -->
-    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/all.min.css?v=1.0.1" />
     <!-- ionicons CSS -->
     <link rel="stylesheet" href="css/ionicons.min.css" />
     <!-- flaticon CSS -->
@@ -91,6 +91,126 @@
 
 
     <script src="js/mail.js"></script>
+
+
+    <!--Schema-->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Gunjute Technologies",
+          "url": "https://gunjutech.in/",
+          "logo": "https://gunjutech.in/images/logo/Gunjute_logo.png",
+          "description": "Gunjute Technologies offers IT services and consulting, specializing in web development, hosting, domain purchase, app development, data analytics, and cybersecurity.",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91-8121345069",
+            "contactType": "Customer Service",
+            "areaServed": "IN",
+            "availableLanguage": "English, Hindi"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/company/gunjute-technologies/",
+            "https://www.facebook.com/people/Gunjute-Technologies/61561972831120/",
+        "https://wa.me/+918121345069",
+        "https://x.com/gunjutech"
+          ],
+          "service": [
+            {
+              "@type": "Service",
+              "name": "Website Development",
+              "description": "Professional website development services, including front-end and back-end solutions.",
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "INR",
+                "price": "Contact for pricing",
+                "url": "https://gunjutech.in/contact-us.html"
+              }
+            },
+            {
+              "@type": "Service",
+              "name": "Hosting",
+              "description": "Reliable web hosting services for businesses of all sizes.",
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "INR",
+                "price": "Contact for pricing",
+                "url": "https://gunjutech.in/contact-us.html"
+              }
+            },
+            {
+              "@type": "Service",
+              "name": "Domain Purchase",
+              "description": "Domain registration and management services.",
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "INR",
+                "price": "Contact for pricing",
+                "url": "https://gunjutech.in/contact-us.html"
+              }
+            },
+            {
+              "@type": "Service",
+              "name": "App Development",
+              "description": "Custom mobile and web application development services.",
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "INR",
+                "price": "Contact for pricing",
+                "url": "https://gunjutech.in/contact-us.html"
+              }
+            },
+            {
+              "@type": "Service",
+              "name": "Data Analytics",
+              "description": "Data analytics services to help businesses make data-driven decisions.",
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "INR",
+                "price": "Contact for pricing",
+                "url": "https://gunjutech.in/contact-us.html"
+              }
+            },
+            {
+              "@type": "Service",
+              "name": "Cybersecurity",
+              "description": "Cybersecurity services to protect your business from threats.",
+              "offers": {
+                "@type": "Offer",
+                "priceCurrency": "INR",
+                "price": "Contact for pricing",
+                "url": "https://gunjutech.in/contact-us.html"
+              }
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Business Park",
+            "addressLocality": "Mumbai",
+            "addressRegion": "MH",
+            "postalCode": "400001",
+            "addressCountry": "IN"
+          }
+        }
+    </script>
+
+    <!--Preload images for performance-->
+    <link rel="preload" href="./images/logo/Gunjute_logo.png" as="image">
+    <link rel="preload" href="./images/social-icons/facebook.webp.png" as="image">
+    <link rel="preload" href="./images/social-icons/twitter.webp" as="image">
+    <link rel="preload" href="./images/social-icons/whatsapp.webp" as="image">
+    <link rel="preload" href="./images/social-icons/linkedin.webp" as="image">
+    <link rel="preload" href="revslider/assets/gunjute-dom08-02.png" as="image">
+    <link rel="preload" href="revslider/assets/gunjute-d8-05.png" as="image">
+    <link rel="preload" href="revslider/assets/gunjute-d8-03.png" as="image">
+    <link rel="preload" href="revslider/assets/gunjute-d8-08.png" as="image">
+    <link rel="preload" href="revslider/assets/gunjute-d8-06.png" as="image">
+    <link rel="preload" href="revslider/assets/gunjute-d8-07.png" as="image">
+    <link rel="preload" href="revslider/assets/gunjute-d8-12.png" as="image">
+    <link rel="preload" href="revslider/assets/gunjute-d8-10.png" as="image">
+    <link rel="preload" href="revslider/assets/gunjute-d8-09.png" as="image">
+    <link rel="preload" href="revslider/assets/gunjute-d8-08.png" as="image">
+
 </head>
 
 <body>
@@ -100,7 +220,6 @@
                 height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
-
     <!-- Loader -->
     <div id="loading">
         <div id="loading-center">
@@ -129,22 +248,22 @@
                         <ul class="list-inline">
                             <li class="list-inline-item me-2">
                                 <a href="https://www.facebook.com/people/Gunjute-Technologies/61561972831120/">
-                                    <img src="./images/social-icons/facebook.webp" alt="Gunjute Technologies Facebook" class="social-icons img-fluid" alt="Gunjute Technologies Facebook">
+                                    <img src="./images/social-icons/facebook.webp" alt="Gunjute Technologies Facebook" class="social-icons img-fluid">
                                 </a>
                             </li>
                             <li class="list-inline-item me-2">
                                 <a href="https://x.com/gunjutech">
-                                    <img src="./images/social-icons/twitter.webp" alt="Gunjute Technologies Twitter" class="social-icons img-fluid" alt="Gunjute Technologies Twitter">
+                                    <img src="./images/social-icons/twitter.webp" alt="Gunjute Technologies Twitter" class="social-icons img-fluid">
                                 </a>
                             </li>
                             <li class="list-inline-item me-2">
                                 <a href="https://wa.me/+918121345069">
-                                    <img src="./images/social-icons/whatsapp.webp" alt="Gunjute Technologies Whatsapp" class="social-icons img-fluid" alt="Gunjute Technologies WhatsApp">
+                                    <img src="./images/social-icons/whatsapp.webp" alt="Gunjute Technologies Whatsapp" class="social-icons img-fluid">
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="https://www.linkedin.com/company/gunjute-technologies/">
-                                    <img src="./images/social-icons/linkedin.webp" alt="Gunjute Technologies Linkedin" class="social-icons img-fluid" alt="Gunjute Technologies LinkedIn">
+                                    <img src="./images/social-icons/linkedin.webp" alt="Gunjute Technologies Linkedin" class="social-icons img-fluid">
                                 </a>
                             </li>
                         </ul>
@@ -230,7 +349,7 @@
                                       data-frame_999="o:0;st:w;sR:7090;"
                                       style="z-index: 100; font-family: Lato; margin-top: 19rem; ">
                                 <br />
-                                Gunjute <br />Technologies
+                                <div>Gunjute <br />Technologies</div>
                             </rs-layer>
                         </div>
                         <rs-layer id="slider-6-slide-6-layer-8"
@@ -614,7 +733,7 @@
         <!-- END REVOLUTION SLIDER -->
     </div>
     <!-- MainContent -->
-    <div class="main-content">
+    
         <div class="edu-video-section video-edu pt-0 pb-0">
             <div class="container">
                 <div class="row py-4">
@@ -715,7 +834,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-6 mt-5 mt-md-0">
-                                            <img width="562" height="532" src="images/about-us/13.png" class="attachment-full" alt="Gunjute Technologies" sizes="100vw">
+                                            <img width="562" height="532" src="images/about-us/13.webp" class="attachment-full" alt="Gunjute Technologies" sizes="100vw">
                                         </div>
                                     </div>
                                 </div>
@@ -763,7 +882,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <img width="562" height="532" src="images/about-us/13.png" class="attachment-full" alt="Gunjute Technologies" sizes="100vw">
+                                            <img width="562" height="532" src="images/about-us/13.webp" class="attachment-full" alt="Gunjute Technologies" sizes="100vw">
                                         </div>
                                     </div>
                                 </div>
@@ -873,7 +992,7 @@
                             </div>
                         </div>
                     </div>
-                  
+
                     <div class="col-lg-4 col-md-6  pb-0">
                         <div class="servicebox-userbehavior wow fadeInUp  text-left mb-0">
                             <div class="service-box-icon">
@@ -896,7 +1015,7 @@
                             </div>
                         </div>
                     </div>
-                   
+
                     <div class="col-lg-4 col-md-6  pb-0">
                         <div class="servicebox-userbehavior wow fadeInUp  text-left mb-0">
                             <div class="service-box-icon">
@@ -943,7 +1062,7 @@
                         </div>
                     </div>
 
-                    
+
                 </div>
             </div>
         </section>
@@ -990,533 +1109,14 @@
                 </div>
             </div>
         </section>
-        <!-- How we work End-->
-        <!-- Blog -->
-        <!-- <section class="pt-0"> -->
-            <!-- <div class="container">
-                <div class="row layer-fly-one ">
-                    <div class="col-md-12">
-                        <div class="title-box wow fadeInUp title-shadow  text-center">
-                            <span class="title-design">Blog</span>
-                            <h2>Recent Blog</h2>
-                        </div>
-                        <div class="gunjute-recentblog v1">
-                            <div class="owl-carousel owl-loaded owl-drag" data-dots="false" data-nav="true" data-items="3" data-items-laptop="3" data-items-tab="2" data-items-mobile="1" data-items-mobile-sm="1" data-autoplay="true" data-loop="true">
-                                <div class="item">
-                                    <div class="iq-blog-box mb-0">
-                                        <div class="iq-blog-image clearfix">
-                                            <img src="images/about-us/02.png" class="img-fluid center-block" alt="blogimage1">
-                                            <ul class="iq-blogtag">
-                                                <li><a href="blog.html">HTML</a> </li>
-                                            </ul>
-                                        </div>
-                                        <div class="iq-blog-detail">
-                                            <div class="iq-blog-meta">
-                                                <ul>
-                                                    <li class="list-inline-item">
-                                                        <a href="blog-details.html" rel="bookmark">
-                                                            <time class="entry-date published updated" datetime="2019-09-26T06:49:49+00:00">September 26, 2019 </time>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="blog-title">
-                                                <a href="blog-details.html">
-                                                    <h4>Build Construction</h4>
-                                                </a>
-                                            </div>
-                                            <p>They bring to you a host of beautifully created infographics that contain the latest digital marketing.</p>
-                                            <div class="blog-button"><a class="button-link" href="blog-details.html">Read More<i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="iq-blog-box mb-0">
-                                        <div class="iq-blog-image clearfix">
-                                            <img src="images/about-us/04.png" class="img-fluid center-block" alt="blogimage2">
-                                            <ul class="iq-blogtag">
-                                                <li><a href="blog.html">Design</a> </li>
-                                            </ul>
-                                        </div>
-                                        <div class="iq-blog-detail">
-                                            <div class="iq-blog-meta">
-                                                <ul>
-                                                    <li class="list-inline-item">
-                                                        <a href="blog-details.html" rel="bookmark">
-                                                            <time class="entry-date published updated" datetime="2019-09-26T06:49:49+00:00">September 26, 2019 </time>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="blog-title">
-                                                <a href="blog-details.html">
-                                                    <h4>Life Lack Meaning</h4>
-                                                </a>
-                                            </div>
-                                            <p>They bring to you a host of beautifully created infographics that contain the latest digital marketing.</p>
-                                            <div class="blog-button"><a class="button-link" href="blog-details.html">Read More<i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="iq-blog-box mb-0">
-                                        <div class="iq-blog-image clearfix">
-                                            <img src="images/about-us/03.png" class="img-fluid center-block" alt="blogimage3">
-                                            <ul class="iq-blogtag">
-                                                <li><a href="blog.html">HTML</a> </li>
-                                            </ul>
-                                        </div>
-                                        <div class="iq-blog-detail">
-                                            <div class="iq-blog-meta">
-                                                <ul>
-                                                    <li class="list-inline-item">
-                                                        <a href="blog-details.html" rel="bookmark">
-                                                            <time class="entry-date published updated" datetime="2019-09-26T06:49:49+00:00">September 26, 2019 </time>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="blog-title">
-                                                <a href="blog-details.html">
-                                                    <h4>Construction industry</h4>
-                                                </a>
-                                            </div>
-                                            <p>They bring to you a host of beautifully created infographics that contain the latest digital marketing.</p>
-                                            <div class="blog-button"><a class="button-link" href="blog-details.html">Read More<i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="iq-blog-box mb-0">
-                                        <div class="iq-blog-image clearfix">
-                                            <img src="images/about-us/02.png" class="img-fluid center-block" alt="blogimage4">
-                                            <ul class="iq-blogtag">
-                                                <li><a href="blog.html">CSS</a> </li>
-                                            </ul>
-                                        </div>
-                                        <div class="iq-blog-detail">
-                                            <div class="iq-blog-meta">
-                                                <ul>
-                                                    <li class="list-inline-item">
-                                                        <a href="blog-details.html" rel="bookmark">
-                                                            <time class="entry-date published updated" datetime="2019-09-26T06:49:49+00:00">September 26, 2019 </time>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="blog-title">
-                                                <a href="blog-details.html">
-                                                    <h4>Content Marketing</h4>
-                                                </a>
-                                            </div>
-                                            <p>They bring to you a host of beautifully created infographics that contain the latest digital marketing.</p>
-                                            <div class="blog-button"><a class="button-link" href="blog-details.html">Read More<i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-        <!-- </section> -->
-        <!-- Blog End -->
-
-    </div>
-    <!-- MainContent End-->
-    <!-- <section class="position-relative">
-        <img src="images/about-us/02.png" class="about-box-img " alt="Gunjute Technologies">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6"> </div>
-                <div class="col-lg-6 wow fadeInUp align-items-center">
-                    <div class="title-box wow fadeInUp text-left">
-                        <span class="title-design">About us</span>
-                        <h2>Focused on Actionable Insights</h2>
-                        <p>It is a long established fact that a reader will be distracted by the of readable content of a page when looking at its layout.</p>
-                    </div>
-                    <div class="text-left">
-                        <ul class="iq-list">
-                            <li> <i class="fa fa-check-square-o"></i> <span>Advance Advisory Team</span> </li>
-                            <li> <i class="fa fa-check-square-o"></i> <span>Professional Consulting Services</span> </li>
-                            <li> <i class="fa fa-check-square-o"></i> <span> 24/7 Support Help Center</span> </li>
-                            <li> <i class="fa fa-check-square-o"></i> <span>Customer Service &amp; Operations</span> </li>
-                        </ul>
-                    </div>
-                    <div class=" text-left mt-5 ">
-                        <a class="button button-icon" href="about-us.html"> <span class="btn-effect"> Read More</span> </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- About Us  End-->
-    <!-- How We Works -->
-    <!-- <section id="how-it-works" class="iq-bg-over">
-        <div class="container">
-            <div class="row iq-how-it-works">
-                <div class="col-lg-5 col-md-12 mb-0 fadeInUp wow column   align-items-center">
-                    <div class="title-box wow fadeInUp text-left">
-                        <span class="title-design">OUR SKILLS</span>
-                        <h2>See Gunjute Technologies In Action</h2>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact.</p>
-                    </div>
-                    <div class="iq-services-box wow fadeInUp text-left">
-                        <div class="services-content">
-                            <h6>Big Data Services</h6>
-                            <span class="progress-value">70%</span>
-                            <div class="iq-progress-bar"> <span class="position-relative" data-percent="70"></span> </div>
-                        </div>
-                        <div class="services-content">
-                            <h6>Data Science Consulting</h6>
-                            <span class="progress-value">50%</span>
-                            <div class="iq-progress-bar"> <span class="position-relative" data-percent="50"></span> </div>
-                        </div>
-                        <div class="services-content">
-                            <h6>Data Analytics Consulting</h6>
-                            <span class="progress-value">80%</span>
-                            <div class="iq-progress-bar"> <span class="position-relative" data-percent="80"></span> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="fadeInUp col-lg-7  col-md-12  ">
-                    <img width="1260" height="954" src="images/about-us/06.png" class="single_image-img attachment-full" alt="Gunjute Technologies">
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- How We Works End -->
-    <!-- Customer -->
-    <!-- <section class="gunjute-blue-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12  wow fadeInUp  ">
-                    <div class="title-box wow fadeInUp text-white text-center">
-                        <span class="title-design sub-title">customers</span>
-                        <h2>Discover customer successful stories</h2>
-                    </div>
-                    <div class=" text-center mb-5 pb-4 ">
-                        <a href="clients.html" class="button white-btn button-icon"> <span class="btn-effect"> View Customer Stories</span> </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 wow fadeInUp">
-                    <div class="owl-carousel client-logo owl-loaded owl-drag" data-dots="false" data-nav="false" data-items="6" data-items-laptop="4" data-items-tab="3" data-items-mobile="2" data-items-mobile-sm="1" data-autoplay="true" data-loop="true" data-margin="30">
-                        <div class="item">
-                            <div class="clients-box"> <img class="img-fluid client-img" src="images/partners/white-1.png" alt="client-image"> </div>
-                        </div>
-                        <div class="item">
-                            <div class="clients-box"> <img class="img-fluid client-img" src="images/partners/white-2.png" alt="client-image"> </div>
-                        </div>
-                        <div class="item">
-                            <div class="clients-box"> <img class="img-fluid client-img" src="images/partners/white-3.png" alt="client-image"> </div>
-                        </div>
-                        <div class="item">
-                            <div class="clients-box"> <img class="img-fluid client-img" src="images/partners/white-4.png" alt="client-image"> </div>
-                        </div>
-                        <div class="item">
-                            <div class="clients-box"> <img class="img-fluid client-img" src="images/partners/white-1.png" alt="client-image"> </div>
-                        </div>
-                        <div class="item">
-                            <div class="clients-box"> <img class="img-fluid client-img" src="images/partners/white-2.png" alt="client-image"> </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- Customer End -->
-    <!-- Project End -->
-    <!-- <section class="gunjute-custom-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 wow fadeInUp">
-                    <div class="title-box wow fadeInUp text-center">
-                        <span class="title-design">Testimonials</span>
-                        <h2>What Our Clients Say</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12  wow fadeInUp">
-                    <div class="owl-carousel testimonial-style owl-loaded owl-drag" data-dots="true" data-nav="false" data-autoplay="false" data-loop="true" data-items="1" data-items-laptop="1" data-items-tab="1" data-items-mobile="1" data-items-mobile-sm="1" data-margin="30">
-                        <div class="item text-center">
-                            <div class="iq-testimonial">
-                                <div class="testimonial-info">
-                                    <img alt="#" class="img-fluid rounded-circle" src="images/testimonials/1.jpg">
-                                    <div class="testimonial-name">
-                                        <h5>Jack White</h5>
-                                        <span class="sub-title">CEO</span>
-                                    </div>
-                                </div>
-                                <p>Richard McClintock, a Latin professor at Hampden-Sydney consectetur adip isicing elit, sed dolore magna aliqua hampden. Latin professor at Hampden-Sydney consectetur. </p>
-                            </div>
-                        </div>
-                        <div class="item text-center">
-                            <div class="iq-testimonial">
-                                <div class="testimonial-info">
-                                    <img alt="#" class="img-fluid rounded-circle" src="images/testimonials/2.jpg">
-                                    <div class="testimonial-name">
-                                        <h5>Walhan Bobe</h5>
-                                        <span class="sub-title">Business Advisor</span>
-                                    </div>
-                                </div>
-                                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium incididunt ut labore et dolore Sed ut perspiciatis error. Perspiciatis unde omnis iste."</p>
-                            </div>
-                        </div>
-                        <div class="item text-center">
-                            <div class="iq-testimonial">
-                                <div class="testimonial-info">
-                                    <img alt="#" class="img-fluid rounded-circle" src="images/testimonials/3.jpg">
-                                    <div class="testimonial-name">
-                                        <h5>Mark McManus</h5>
-                                        <span class="sub-title">COO</span>
-                                    </div>
-                                </div>
-                                <p>“Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.” </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- Client -->
-    <!-- <section class="pt-0 iq-pb-55">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 wow fadeInUp title-box text-center">
-                    <span class="title-design">Awards</span>
-                    <h2>Awards &amp; Accreditations</h2>
-                </div>
-            </div>
-            <div class="row wow fadeInUp mb-5">
-                <div class="col-md-3">
-                    <div class="gunjute-award wow fadeInUp  text-center">
-                        <div class="award-img"> <img src="images/awards/1.png" alt="fancybox"> </div>
-                        <h5 class="mt-3">Microsoft Partner of the Year Award</h5>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="gunjute-award wow fadeInUp  text-center">
-                        <div class="award-img"> <img src="images/awards/2.png" alt="fancybox"> </div>
-                        <h5 class="mt-3">Global Sourcing Awards 2018 Finalist</h5>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="gunjute-award wow fadeInUp  text-center">
-                        <div class="award-img"> <img src="images/awards/3.png" alt="fancybox"> </div>
-                        <h5 class="mt-3">Gold Winner of 2013 Horizon Awards</h5>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="gunjute-award wow fadeInUp  text-center">
-                        <div class="award-img"> <img src="images/awards/4.png" alt="fancybox"> </div>
-                        <h5 class="mt-3">European Software Testing Awards Finalist</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="row wow fadeInUp justify-content-center">
-                <div class="col-lg-3 col-md-3">
-                    <div class="gunjute-award wow fadeInUp  text-center">
-                        <div class="award-img"> <img src="images/awards/5.png" alt="fancybox"> </div>
-                        <h5 class="mt-3">Microsoft Partner of the Year Award</h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                    <div class="gunjute-award wow fadeInUp  text-center">
-                        <div class="award-img"> <img src="images/awards/1.png" alt="fancybox"> </div>
-                        <h5 class="mt-3">Global Sourcing Awards 2018 Finalist</h5>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3">
-                    <div class="gunjute-award wow fadeInUp  text-center">
-                        <div class="award-img"> <img src="images/awards/2.png" alt="fancybox"> </div>
-                        <h5 class="mt-3">Gold Winner of 2013 Horizon Awards</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- Client End -->
-
-    <!-- <section class="pt-0">
-        <div class="container">
-            <div class="row iq-how-it-works">
-                <div class="fadeInUp col-sm-12 col-lg-6 col-md-6 wow"> <img alt="Gunjute Technologies" class="single_image-img attachment-full" height="954" src="images/about-us/03.png" width="1260" /> </div>
-                <div class=" fadeInUp  col-sm-12 col-lg-6 col-md-6 wow align-items-center">
-                    <div class="title-box wow fadeInUp text-left">
-                        <span class="title-design">About us</span>
-                        <h2>Human Behaviour, Data Science</h2>
-                        <p> It is a long established fact that a reader will be distracted by the of readable content of a page when looking at its layout. </p>
-                    </div>
-                    <div class="text-left">
-                        <ul class="iq-list">
-                            <li> <i class="fa fa-check-square-o"></i> <span>Advance Advisory Team</span> </li>
-                            <li> <i class="fa fa-check-square-o"></i> <span>Professional Consulting Services</span> </li>
-                            <li> <i class="fa fa-check-square-o"></i> <span> 24/7 Support Help Center</span> </li>
-                            <li> <i class="fa fa-check-square-o"></i> <span>Customer Service &amp; Operations</span> </li>
-                        </ul>
-                    </div>
-                    <div class=" text-left mt-5">
-                        <a class="button button-icon" href="about-us.html">
-                            <span class="btn-effect"> Read More</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- <section class="iq-bg-over iq-pb-70">
-        <div class="container">
-            <div class="row row-fluid row-has-fill iq-how-it-works">
-                <div class="iq-mb-30 fadeInUp wow col-sm-12 col-lg-5 col-md-12 align-items-center">
-                    <div class="title-box wow fadeInUp text-left">
-                        <span class="title-design">ABOUT US</span>
-                        <h2>Human Behaviour, Data Science</h2>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.It is a long established fact that a reader will be distracted many desktop.</p>
-                    </div>
-                    <div class="services-content wow fadeInUp progress-style text-left">
-                        <div class="progress-content">
-                            <div class="progress-value">70%</div>
-                            <div class="progress-title">
-                                <div class="progress-main">
-                                    <h6>Big Data Services</h6>
-                                </div>
-                                <div class="iq-progress-bar">
-                                    <span class="position-relative" data-percent="70"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="progress-content">
-                            <div class="progress-value">50%</div>
-                            <div class="progress-title">
-                                <div class="progress-main">
-                                    <h6>Data Science Consulting</h6>
-                                </div>
-                                <div class="iq-progress-bar">
-                                    <span class="position-relative" data-percent="50"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="progress-content">
-                            <div class="progress-value">80%</div>
-                            <div class="progress-title">
-                                <div class="progress-main">
-                                    <h6>Data Analytics Consulting</h6>
-                                </div>
-                                <div class="iq-progress-bar">
-                                    <span class="position-relative" data-percent="80"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 offset-lg-1 col-lg-6 col-md-12">
-                    <div class="row">
-                        <div class="first-tec col-sm-6 col-lg-6">
-                            <div class="tec_box">
-                                <div class="tec_icons clerfix">
-                                    <div class="img_icon_one">
-                                        <div class="tec_icon"><img src="images/services/services-small-1.png" alt="tecbox"></div>
-                                    </div>
-                                    <div class="img_icon_two">
-                                        <div class="tec_icon"><img src="images/services/services-small-2.png" alt="tecbox"></div>
-                                    </div>
-                                </div>
-                                <div class="img_icon_three">
-                                    <div class="tec_icon"><img src="images/services/services-small-3.png" alt="tecbox"></div>
-                                </div>
-                                <h5>Big Data Services</h5>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-6">
-                            <div class="tec_box">
-                                <div class="tec_icons clerfix">
-                                    <div class="img_icon_one">
-                                        <div class="tec_icon"><img src="images/services/services-small-1.png" alt="tecbox"></div>
-                                    </div>
-                                    <div class="img_icon_two">
-                                        <div class="tec_icon"><img src="images/services/services-small-2.png" alt="tecbox"></div>
-                                    </div>
-                                </div>
-                                <div class="img_icon_three">
-                                    <div class="tec_icon"><img src="images/services/services-small-3.png" alt="tecbox"></div>
-                                </div>
-                                <h5>Business Intelligence</h5>
-                            </div>
-                            <div class="tec_box">
-                                <div class="tec_icons clerfix">
-                                    <div class="img_icon_one">
-                                        <div class="tec_icon"><img src="images/services/services-small-1.png" alt="tecbox"></div>
-                                    </div>
-                                    <div class="img_icon_two">
-                                        <div class="tec_icon"><img src="images/services/services-small-2.png" alt="tecbox"></div>
-                                    </div>
-                                </div>
-                                <div class="img_icon_three">
-                                    <div class="tec_icon"><img src="images/services/services-small-3.png" alt="tecbox"></div>
-                                </div>
-                                <h5>Data Visualization</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- About Us Services End -->
-    <!-- Service -->
-    <!-- <div class="gunjute-blue-bg py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 mb-3 mb-md-0">
-                    <div class="iq-timer style1 text-center">
-                        <div class="timer-details">
-                            <span class="timer" data-to="820" data-speed="15000">820</span>
-                            <i class="fa fa-plus" aria-hidden="true"></i>
-                            <p> Data Analytics</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-3 mb-md-0">
-                    <div class="iq-timer style1 text-center">
-                        <div class="timer-details">
-                            <span class="timer" data-to="150" data-speed="15000">150</span>
-                            <i class="fa fa-plus" aria-hidden="true"></i>
-                            <p> Data Management</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-3 mb-md-0">
-                    <div class="iq-timer style1 text-center">
-                        <div class="timer-details">
-                            <span class="timer" data-to="30" data-speed="15000">30</span>
-                            <i class="fa fa-plus" aria-hidden="true"></i>
-                            <p> Managed Analytics</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-3 mb-md-0">
-                    <div class="iq-timer style1 text-center">
-                        <div class="timer-details">
-                            <span class="timer" data-to="100" data-speed="15000">100</span>
-                            <i class="fa fa-plus" aria-hidden="true"></i>
-                            <p> Big Data</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+    
     <section class="iq-pb-85">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 pr-3">
                     <div class="title-box wow fadeInUp mb-0 text-center text-lg-left border-right ">
                         <span class="title-design">Why Choose Us</span>
-                        <h2>Why people <br class="d-none d-lg-block"> choose Gunjute Technologies</h2>
+                        <div style="font-size:1.441em; font-weight:bold;">Why people  choose<h1 style="font-size:1.441em;" title="Gunjute Technologies">Gunjute Technologies</h1></div>
                     </div>
                 </div>
                 <div class="col-lg-8 align-self-center">
@@ -1568,267 +1168,6 @@
             </div>
         </div>
     </section>
-
-    <!-- <section class="iq-bg-over">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="custom-tab">
-                        <ul class="nav nav-pills text-center flex-column mb-5 mb-md-0" id="pills-tab" role="tablist" aria-orientation="vertical">
-                            <li class="nav-item w-inherit ">
-                                <a class="nav-link w-100" data-toggle="pill" href="#tab-software-development" role="tab" aria-selected="true"><h5 class="tab-title">Software Development</h5></a>
-                            </li>
-                            <li class="nav-item w-inherit">
-                                <a class="nav-link w-100" data-toggle="pill" href="#tab-application-services" role="tab" aria-selected="false"><h5 class="tab-title">Application Services</h5></a>
-                            </li>
-                            <li class="nav-item w-inherit">
-                                <a class="nav-link w-100" data-toggle="pill" href="#tab-data-analytics" role="tab" aria-selected="false"><h5 class="tab-title">Data Analytics</h5></a>
-                            </li>
-                            <li class="nav-item w-inherit">
-                                <a class="nav-link w-100" data-toggle="pill" href="#tab-help-desk-services" role="tab" aria-selected="false"><h5 class="tab-title">Help Desk Services</h5></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="tab-content ml-3">
-                        <div id="tab-software-development" class="tab-pane fade active show">
-                            <h3 class="pb-3">Choose Your Software Development Service</h3>
-                            <p>Tame your big data through robust solutions that empower data collection, storage,processing and analysis.</p>
-                            <ul class="iq-list column-2">
-                                <li><i class="fa fa-check-square-o"></i>Advance Advisory Team</li>
-                                <li><i class="fa fa-check-square-o"></i>Professional Consulting Services</li>
-                                <li><i class="fa fa-check-square-o"></i>24/7 Support Help Center</li>
-                                <li><i class="fa fa-check-square-o"></i>Customer Service &amp; Operations</li>
-                                <li><i class="fa fa-check-square-o"></i>There are many variations of passages.</li>
-                            </ul>
-                        </div>
-                        <div id="tab-application-services" class="tab-pane fade ">
-                            <h3 class="pb-3">Choose Your Application Service</h3>
-                            <p>Tame your big data through robust solutions that empower data collection, storage,processing and analysis.</p>
-                            <ul class="iq-list column-2">
-                                <li><i class="fa fa-check-square-o"></i>Advance Advisory Team</li>
-                                <li><i class="fa fa-check-square-o"></i>Professional Consulting Services</li>
-                                <li><i class="fa fa-check-square-o"></i>24/7 Support Help Center</li>
-                                <li><i class="fa fa-check-square-o"></i>Customer Service &amp; Operations</li>
-                                <li><i class="fa fa-check-square-o"></i>There are many variations of passages.</li>
-                            </ul>
-                        </div>
-                        <div id="tab-data-analytics" class="tab-pane fade">
-                            <h3 class="pb-3">Choose Your Data Analytics Service</h3>
-                            <p>Tame your big data through robust solutions that empower data collection, storage,processing and analysis.</p>
-                            <ul class="iq-list column-2">
-                                <li><i class="fa fa-check-square-o"></i>Advance Advisory Team</li>
-                                <li><i class="fa fa-check-square-o"></i>Professional Consulting Services</li>
-                                <li><i class="fa fa-check-square-o"></i>24/7 Support Help Center</li>
-                                <li><i class="fa fa-check-square-o"></i>Customer Service &amp; Operations</li>
-                                <li><i class="fa fa-check-square-o"></i>There are many variations of passages.</li>
-                            </ul>
-                        </div>
-                        <div id="tab-help-desk-services" class="tab-pane fade">
-                            <h3 class="pb-3">Choose Your Help Desk Service</h3>
-                            <p>Tame your big data through robust solutions that empower data collection, storage,processing and analysis.</p>
-                            <ul class="iq-list column-2">
-                                <li><i class="fa fa-check-square-o"></i>Advance Advisory Team</li>
-                                <li><i class="fa fa-check-square-o"></i>Professional Consulting Services</li>
-                                <li><i class="fa fa-check-square-o"></i>24/7 Support Help Center</li>
-                                <li><i class="fa fa-check-square-o"></i>Customer Service &amp; Operations</li>
-                                <li><i class="fa fa-check-square-o"></i>There are many variations of passages.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section> -->
-
-    <!-- Counter -->
-    <!-- <div class="gunjute-gray-bg2 py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 mb-3 mb-md-0">
-                    <div class="iq-timer style4    text-center">
-                        <div class="timer-details">
-                            <span class="timer" data-to="2050" data-speed="5000">
-                                2050
-                            </span>
-                            <span class="timer_postfix">+</span><p>Published</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-3 mb-md-0">
-                    <div class="iq-timer style4    text-center">
-                        <div class="timer-details">
-                            <span class="timer" data-to="1300" data-speed="5000">
-                                1300
-                            </span>
-                            <span class="timer_postfix">+</span><p>Pages</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-3 mb-md-0">
-                    <div class="iq-timer style4    text-center">
-                        <div class="timer-details">
-                            <span class="timer" data-to="203" data-speed="5000">
-                                203
-                            </span>
-                            <span class="timer_postfix">+</span><p>New Books</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-3 mb-md-0">
-                    <div class="iq-timer style4    text-center border-0">
-                        <div class="timer-details">
-                            <span class="timer" data-to="305" data-speed="5000">
-                                305
-                            </span>
-                            <span class="timer_postfix">+</span><p>Study Books</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Counter End -->
-
-    <!-- <section class="bg-img-two">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="title-box wow fadeInUp text-white  text-left"><span class="title-design"></span><h2 class="text-white">FC use video and stats to improve performance</h2><p class="text-white">Faff about only a quid blower I don’t want no agro bleeding chimney pot burke tosser cras nice one boot fanny.!</p></div>
-                    <div class=" text-left  "><a class="button blue-btn button-icon" href="#"><span class="btn-effect"> View Details</span></a></div>
-                </div>
-                <div class="col-lg-6 col-md-6   wow fadeInUp align-self-center">
-                    <div class="iq-video-relative">
-                        <div class="scroll-effect  ">
-                            <div class="main-video">
-                                <div class="video-img">
-                                    <div class="consult-video video-btn">
-                                        <div class="btn-waves">
-                                            <div class="waves wave-1"></div>
-                                            <div class="waves wave-2"></div>
-                                            <div class="waves wave-3"></div>
-                                        </div>
-                                        <a href="https://www.youtube.com/watch?v=0O2aH4XLbto" class="iq-video popup-youtube"><i class="fa fa-play"></i></a>-->
-                                    <!-- </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 wow fadeInUp align-items-center">
-                    <div class="title-box wow fadeInUp text-left">
-                        <h2>Get tips & tricks on how to skyrocket your sales.</h2>
-                        <p>Discover expert tips and tricks to skyrocket your sales and achieve business growth </p>
-                    </div>
-                    <div class="text-left column-2 mb-5 ">
-                        <ul class="iq-list">
-                            <li><i class="ion ion-checkmark-round"></i><span>Boost SEO ranking</span></li>
-                            <li><i class="ion ion-checkmark-round"></i><span>Social Sharing</span></li>
-                            <li><i class="ion ion-checkmark-round"></i><span>Marketing</span></li>
-                            <li><i class="ion ion-checkmark-round"></i><span>Retention</span></li>
-                            <li><i class="ion ion-checkmark-round"></i><span>Visual Reviews</span></li>
-                            <li><i class="ion ion-checkmark-round"></i><span>Reviews Generation</span></li>
-                        </ul>
-                    </div>
-                    <div class=" text-left mt-5 ">
-                        <a class="button button-icon" href="about-us.html"> <span class="btn-effect">View Details</span> </a>
-                    </div>
-                </div>
-                <div class="col-lg-6  wow fadeInUp gunjute-right-img">
-                    <img src="images/about-us/16.png" alt="about">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6  wow fadeInUp gunjute-left-img">
-                    <img src="images/about-us/17.png" alt="about-2">
-                    <div class="scroll-effect top blue ">
-                        <div class="main-video">
-                            <div class="video-img">
-                                <div class="consult-video video-btn">
-                                    <div class="btn-waves">
-                                        <div class="waves wave-1"></div>
-                                        <div class="waves wave-2"></div>
-                                        <div class="waves wave-3"></div>
-                                    </div><a href="#" class="iq-video popup-youtube"><i class="fa fa-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp align-items-center">
-                    <div class="title-box wow fadeInUp text-left">
-                        <h2>Get tips & tricks on how to skyrocket your sales.</h2>
-                        <p>Faff about only a quid blower I don’t want no agro bleeding chimney pot burke tosser cras nice one boot fanny.! </p>
-                    </div>
-                    <div class="text-left column-2 mb-5 ">
-                        <ul class="iq-list">
-                            <li><i class="ion ion-checkmark-round"></i><span>Boost SEO ranking</span></li>
-                            <li><i class="ion ion-checkmark-round"></i><span>Social Sharing</span></li>
-                            <li><i class="ion ion-checkmark-round"></i><span>Marketing</span></li>
-                            <li><i class="ion ion-checkmark-round"></i><span>Retention</span></li>
-                            <li><i class="ion ion-checkmark-round"></i><span>Visual Reviews</span></li>
-                            <li><i class="ion ion-checkmark-round"></i><span>Reviews Generation</span></li>
-                        </ul>
-                    </div>
-                    <div class=" text-left mt-5 ">
-                        <a class="button button-icon" href="about-us.html"> <span class="btn-effect">View Details</span> </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- Why Choose Us End -->
-    <!-- <section class="pt-0 ">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="iq-timer style2 mb-5  mb-md-0 mb-lg-0   text-center">
-                        <div class="iq-img">  <img src="images/fancybox/5-1.png" alt="fancybox"> </div>
-                        <div class="timer-details ">
-                            <span class="timer dark-timer" data-to="50" data-speed="2000">50</span><span class="timer_postfix dark-timer">M+</span><i class="fa fa-percent" aria-hidden="true"></i>
-                            <p class="dark-timer">Tranding Volumn</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="iq-timer style2 mb-5  mb-md-0 mb-lg-0   text-center">
-                        <div class="iq-img">  <img src="images/fancybox/5-2.png" alt="fancybox"> </div>
-                        <div class="timer-details ">
-                            <span class="timer dark-timer" data-to="400" data-speed="2000">400</span><span class="timer_postfix dark-timer">M+</span><i class="fa fa-percent" aria-hidden="true"></i>
-                            <p class="dark-timer">Transaction</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="iq-timer style2 mb-5  mb-md-0 mb-lg-0   text-center">
-                        <div class="iq-img">  <img src="images/fancybox/5-3.png" alt="fancybox"> </div>
-                        <div class="timer-details ">
-                            <span class="timer dark-timer" data-to="10" data-speed="2000">10</span><span class="timer_postfix dark-timer">M+</span><i class="fa fa-percent" aria-hidden="true"></i>
-                            <p class="dark-timer">Happy User</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="iq-timer style2   text-center">
-                        <div class="iq-img">  <img src="images/fancybox/5-4.png" alt="fancybox"> </div>
-                        <div class="timer-details ">
-                            <span class="timer dark-timer" data-to="20" data-speed="2000">20</span><span class="timer_postfix dark-timer">M+</span><i class="fa fa-percent" aria-hidden="true"></i>
-                            <p class="dark-timer">Custom Portfolio Created</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <section class="iq-bg-over">
         <div class="container">
@@ -1957,7 +1296,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="images/about-us/18.png" alt="fancybox">
+                    <img src="images/about-us/18.webp" alt="fancybox">
                 </div>
             </div>
         </div>
@@ -1976,7 +1315,6 @@
                         <div class="iq-timer style3 text-left">
                             <div class="iq-img"> <img src="images/fancybox/4.png" class="img-fluid" alt="fancybox"></div>
                             <div class="timer-details">
-                                <!-- <span class="timer dark-text" data-to="455" data-speed="5000">455</span> -->
                                 <i class="fa fa-plus" aria-hidden="true"></i>
                                 <p class="dark-text"> Managed Analytics as a global business</p>
                             </div>
@@ -1986,7 +1324,6 @@
                         <div class="iq-timer style3    text-left">
                             <div class="iq-img"> <img src="images/fancybox/3.png" class="img-fluid" alt="fancybox"></div>
                             <div class="timer-details">
-                                <!-- <span class="timer dark-text" data-to="32" data-speed="5000">32</span><i class="fa fa-percent" aria-hidden="true"></i> -->
                                 <p class="dark-text"> Data Management in the telecoms</p>
                             </div>
                         </div>
@@ -1995,7 +1332,6 @@
                         <div class="iq-timer style3    text-left">
                             <div class="iq-img"> <img src="images/fancybox/2.png" class="img-fluid" alt="fancybox"></div>
                             <div class="timer-details">
-                                <!-- <span class="timer dark-text" data-to="1254" data-speed="5000">1254</span> -->
                                 <i class="fa fa-plus" aria-hidden="true"></i>
                                 <p class="dark-text"> Managed Analytics in business</p>
                             </div>
@@ -2005,7 +1341,6 @@
                         <div class="iq-timer style3    text-left">
                             <div class="iq-img"> <img src="images/fancybox/1.png" class="img-fluid" alt="fancybox"></div>
                             <div class="timer-details">
-                                <!-- <span class="timer dark-text" data-to="563" data-speed="5000">563</span> -->
                                 <i class="fa fa-plus" aria-hidden="true"></i>
                                 <p class="dark-text"> Project complete in timeline.</p>
                             </div>
@@ -2015,8 +1350,6 @@
             </div>
         </section>
         <!-- Info card -End -->
-        
-        
         <!-- About us End-->
         <section class="pt-0 iq-pb-40">
             <div class="container">
@@ -2166,50 +1499,6 @@
             </div>
         </section>
 
-        <!-- Clients, Completed Projects, Team Members, Questions Answered -->
-        <!-- <section class="pb-15">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="iq-timer style2 mb-5  mb-md-0 mb-lg-0   text-center">
-                            <div class="iq-icon">  <i aria-hidden="true" class="ion ion-android-sad"></i> </div>
-                            <div class="timer-details ">
-                                <span class="timer dark-timer" data-to="1520" data-speed="5000">1520</span><span class="timer_postfix dark-timer">M</span><i class="fa fa-percent" aria-hidden="true"></i>
-                                <p class="dark-timer"> Happy Clients</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="iq-timer style2 mb-5  mb-md-0 mb-lg-0   text-center">
-                            <div class="iq-icon">  <i aria-hidden="true" class="fa fa-handshake-o"></i> </div>
-                            <div class="timer-details ">
-                                <span class="timer dark-timer" data-to="2000" data-speed="5000">2000</span><span class="timer_postfix dark-timer">M</span><i class="fa fa-percent" aria-hidden="true"></i>
-                                <p class="dark-timer"> Completed Projects</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="iq-timer style2 mb-5  mb-md-0 mb-lg-0   text-center">
-                            <div class="iq-icon">  <i aria-hidden="true" class="ion ion-ios-contact-outline"></i> </div>
-                            <div class="timer-details ">
-                                <span class="timer dark-timer" data-to="150" data-speed="5000">150</span><span class="timer_postfix dark-timer">M</span><i class="fa fa-percent" aria-hidden="true"></i>
-                                <p class="dark-timer"> Team Members</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="iq-timer style2   text-center">
-                            <div class="iq-icon">  <i aria-hidden="true" class="ion ion-android-checkmark-circle"></i> </div>
-                            <div class="timer-details ">
-                                <span class="timer dark-timer" data-to="750" data-speed="5000">750</span><span class="timer_postfix dark-timer">M</span><i class="fa fa-percent" aria-hidden="true"></i>
-                                <p class="dark-timer">Questions Answered</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
         <section class="pt-0">
             <div class="container">
                 <div class="row">
@@ -2320,10 +1609,10 @@
                                 <img alt="Gunjute Technologies" src="./images/logo/Gunjute_logo.png" width="160">
                             </p>
                             <ul class="info-share list-inline">
-                                <li class="list-inline-item"> <a href="https://www.facebook.com/people/Gunjute-Technologies/61561972831120/"><img src="./images/social-icons/facebook.webp" alt="Gunjute Technologies Facebook" class="social-icons"></a> </li>
-                                <li class="list-inline-item"> <a href="https://x.com/gunjutech"><img src="./images/social-icons/twitter.webp" alt="Gunjute Technologies Twitter" class="social-icons"></a> </li>
-                                <li class="list-inline-item"> <a href="https://wa.me/+918121345069"> <img src="./images/social-icons/whatsapp.webp" alt="Gunjute Technologies Whatsapp" class="social-icons"> </a> </li>
-                                <li class="list-inline-item"> <a href="https://www.linkedin.com/company/gunjute-technologies/"><img src="./images/social-icons/linkedin.webp" alt="Gunjute Technologies Linkedin" class="social-icons"></a> </li>
+                                <li class="list-inline-item"> <a href="https://www.facebook.com/people/Gunjute-Technologies/61561972831120/"><img src="./images/social-icons/facebook.webp" alt="Gunjute Technologies Facebook" loading="lazy" class="social-icons"></a> </li>
+                                <li class="list-inline-item"> <a href="https://x.com/gunjutech"><img src="./images/social-icons/twitter.webp" alt="Gunjute Technologies Twitter" class="social-icons" loading="lazy"></a> </li>
+                                <li class="list-inline-item"> <a href="https://wa.me/+918121345069"> <img src="./images/social-icons/whatsapp.webp" alt="Gunjute Technologies Whatsapp" class="social-icons" loading="lazy"> </a> </li>
+                                <li class="list-inline-item"> <a href="https://www.linkedin.com/company/gunjute-technologies/"><img src="./images/social-icons/linkedin.webp" alt="Gunjute Technologies Linkedin" class="social-icons" loading="lazy"></a> </li>
                             </ul>
                         </div>
 

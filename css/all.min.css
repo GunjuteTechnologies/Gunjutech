@@ -2330,10 +2330,10 @@
   overflow: visible;
   clip: auto;
 }
-.social-icons {
-    width: 24px; /* Adjust the width as needed */
-    height: 24px; /* Adjust the height as needed */
-}
+/*.social-icons {
+    width: 24px;*/ /* Adjust the width as needed */
+    /*height: 24px;*/ /* Adjust the height as needed */
+/*}*/
 
 .info-share {
     padding: 0;
@@ -2346,3 +2346,8 @@
         .info-share .list-inline-item:last-child {
             margin-right: 0; /* Remove margin from the last icon */
         }
+
+img.social-icons {
+    width: 100%;
+    height: auto;
+}
